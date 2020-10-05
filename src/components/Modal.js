@@ -26,11 +26,16 @@ function Modal({ close, project }){
                 <p onClick={close} align="right"><strong>X</strong></p><br/>
                 <p><strong>팀명 : </strong>{project.teamName}</p><br/>
                 <p><strong>소개 : </strong>{project.motif}</p><br/>
-                <strong>스택아키텍처</strong><br/><img src={project.architecture} width="90%"/>
-                <p><strong>스크린샷</strong></p><br/>
-                { project.screenShots.map((item, index)=>{ 
-                    return <div key={index}><img src={item.img} width="80%" /><p>{item.description}</p></div>}) 
-                }
+                <p><strong>스택아키텍처</strong></p><br/>
+                <div className="imgContainer" align="center">
+                    <img src={project.architecture} width="90%"/>
+                    <p align="left"><strong>스크린샷</strong></p><br/>
+                    { project.screenShots.map((item, index)=>{ 
+                        return <div key={index}><img src={item.img} width="80%" /><p>{item.description}</p></div>}) 
+                    }
+                    <br/><br/>
+                    <span className="closeBtn" onClick={close}>CLOSE</span>
+                </div>
             </main>
         </div>
     );
