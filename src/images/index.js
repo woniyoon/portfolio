@@ -5,3 +5,7 @@ export const sdScreen1 = require("./sdScreen1.png");
 export const sdScreen2 = require("./sdScreen2.png");
 export const sdScreen3 = require("./sdScreen3.png");
 export const sdScreen4 = require("./sdScreen4.png");
+export const socdocLogo = require("./socdocLogoT.png");
+export const sbWeb = require("../images/sbWeb.png");
+export const sdArch = require("../images/sdArch.jpeg");
+export const sbArch = require("../images/sbArch.jpeg");
