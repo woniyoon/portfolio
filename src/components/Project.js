@@ -36,7 +36,7 @@ class Project extends React.Component {
 
         return(
             <div>
-                <div className="projectPcs" style={divStyle} onClick={()=> this.props.customClickEvent(this.props.work.id)} >
+                <div className="projectPcs" style={divStyle} onClick={()=> this.props.customClickEvent(this.props.work)} >
                     {/* <div className={`descriptionBack ${isSelected ? "transparentBack" : ""}`}  */}
                     <div className="descriptionBack" 
                         // onMouseEnter={this.handleHover}

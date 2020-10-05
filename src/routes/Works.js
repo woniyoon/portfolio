@@ -42,11 +42,9 @@ class Works extends React.Component {
 
     getProject = ()=>{
     
-        return projects.map((work)=>{
-            console.log(work.id);
-            console.log(work);
+        return projects.map((project)=>{
             return (
-                <Project customClickEvent={this.clickProject.bind(this)} key={work.id} work={work} />
+                <Project customClickEvent={this.clickProject.bind(this)} key={project.id} project={project} />
                 // {
                 //     isSelected ?  <Modal project={work} close={this.closeModal} /> : null
                 // }
