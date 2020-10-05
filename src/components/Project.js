@@ -27,22 +27,22 @@ class Project extends React.Component {
     }
 
     render(){
-        const work = this.props.work;
+        const project = this.props.project;
         // const { isSelected } = this.state;
 
         var divStyle = {
-            backgroundImage: "url(" + work.projectThumnail + ")"
+            backgroundImage: "url(" + project.projectThumnail + ")"
         }
 
         return(
             <div>
-                <div className="projectPcs" style={divStyle} onClick={()=> this.props.customClickEvent(this.props.work)} >
+                <div className="projectPcs" style={divStyle} onClick={()=> this.props.customClickEvent(project)} >
                     {/* <div className={`descriptionBack ${isSelected ? "transparentBack" : ""}`}  */}
                     <div className="descriptionBack" 
                         // onMouseEnter={this.handleHover}
                         // onMouseLeave={this.handleHover}
                     >
-                        <p className="projectTitle" align="center">{work.title}<br/>{work.period}</p>
+                        <p className="projectTitle" align="center">{project.title}<br/>{project.period}</p>
                     </div>
                     {/* <img className="projectThumnail" src={work.projectThumnail}/> */}
                 </div>
