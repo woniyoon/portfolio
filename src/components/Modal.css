@@ -28,6 +28,10 @@
     z-index: 1000;
 }
 
+.xBtn {
+    font-size: 1.3em;
+}
+
 .closeBtn {
     background-color: rgb(232, 223, 232);
     padding: 10px;

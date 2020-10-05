@@ -23,7 +23,9 @@ function Modal({ close, project }){
             <div className="modalOverlay">
             </div>
             <main className="modalContent">
-                <p onClick={close} align="right"><strong>X</strong></p><br/>
+                <p className="xBtn" onClick={close} align="right"><strong>X</strong></p>
+                <p><strong>프로젝트명 : </strong>{project.title}</p><br/>
+                <p><strong>기간 : </strong>{project.period}</p><br/>
                 <p><strong>팀명 : </strong>{project.teamName}</p><br/>
                 <p><strong>소개 : </strong>{project.motif}</p><br/>
                 <p><strong>스택아키텍처</strong></p><br/>
