@@ -21,7 +21,7 @@ function Navigator(){
                     <a href="https://woniyoon.github.io/">BLOG</a>
                 </li>
             </ul>
-            <p>ENG/KOR</p>
+            {/* <p>ENG/KOR</p> */}
         </aside>
     );
 }
