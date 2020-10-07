@@ -1,0 +1,36 @@
+
+.navMenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding-inline-start: 0;
+    margin: 0;
+    height: 5vh;
+    min-height: 50px;
+    background-color: rgb(106, 106, 106);
+}
+
+.navMenu li {
+    display: inline-block;
+    margin: 3px 10px;
+    list-style-type: none;
+    font-weight: bold;
+    /* border: 1px solid blue; */
+}
+
+a {
+    text-decoration: none;
+    color: rgb(225, 225, 225);
+}
+
+a:visited {
+    color: rgb(225, 225, 225);
+}
+
+
+@media screen and (max-width: 1030px) {
+    .navMenu {
+        background-color: rgb(89, 10, 10);
+    }
+}
