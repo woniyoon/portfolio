@@ -62,7 +62,7 @@ class Works extends React.Component {
         document.body.style.overflowY = isSelected ? "hidden" : "";        
 
         return (
-            <div className="workContainer" >
+            <div id="works" className="workContainer" >
                 {this.getProject()}
                 {isSelected ?  <Modal project={project} close={this.closeModal} top={top} /> : null}
             </div>
