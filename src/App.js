@@ -3,6 +3,7 @@ import "./App.css";
 import { HashRouter } from "react-router-dom";
 import Navigator from "./Components/Navigator";
 import About from "./Components/About";
+import Skills from "./Components/Skills";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div className="entirePage">
         <Navigator />
         <About />
+        <Skills />
       </div>
     </HashRouter>
   );
