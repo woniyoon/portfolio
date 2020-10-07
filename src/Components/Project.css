@@ -1,0 +1,100 @@
+.projectPcs {
+    /* background-color: rgb(237, 237, 237); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 70vw;
+    height: 250px;
+    background-size: auto 100%;
+    background-position: center;
+    border: 1px solid rgb(216, 216, 216);
+    /* margin: 0 auto; */
+}
+
+@media screen and (min-width: 1300px) {
+    .projectPcs {
+        width: 30vw;
+    }
+}
+
+@media screen and (min-width: 1030px) and (max-width: 1300px) {
+    .projectPcs {
+        width: 35vw;
+    }
+}
+
+@media screen and (min-width: 620px) and (max-width: 1030px) {
+    .projectPcs {
+        width: 400px;
+    }
+}
+
+.descriptionBack {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectPcs:hover {
+    opacity: 0.9;
+}
+
+.descriptionBack:hover {
+    background-color: rgb(62, 62, 62);
+    opacity: 0.9;
+    transition: opacity 0.5s;
+}
+
+.descriptionBack::after {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background-color: white;
+    /* border: 2px solid rgb(228, 228, 228); */
+    top: 65%;
+    left: 30%;
+    /* bottom: 10px; */
+    /* top: -5px;
+    bottom: -5px; */
+    content: "";
+    transition: width 0.7s ease;
+}
+
+.descriptionBack:hover .projectTitle {
+    top: 40%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.descriptionBack:hover::after {
+    width: 40%;
+}
+
+.projectTitle {
+    color: white;
+    position: absolute;
+    top: 20%;
+    opacity: 0;
+    transition: opacity 1s ease, top 0.8s ease-in-out;
+}
+
+.projectDetail {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 60vw;
+    height: 40vh;
+    background-color: lightgoldenrodyellow;
+    z-index: 1000;
+    margin: -25% 0 0 -25%;
+}
+
+.show {
+    display: block;
+}

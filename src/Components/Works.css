@@ -1,0 +1,35 @@
+.workContainer {
+    /* width: auto;
+    height: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5em;
+    grid-row-gap: 5em; */
+    margin: 100px auto;
+    /* background-color: lavender; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5em;
+    column-gap: 5em;
+    grid-row-gap: 5em;
+    width: 65vw;
+}
+
+/* @media screen and (min-width: 1030px) {
+    .workContainer {
+        width: 70vw;
+    }
+} */
+
+@media screen and (min-width: 660px) and (max-width: 1030px) {
+    .workContainer {
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .workContainer {
+        grid-template-columns: auto;
+    }
+}
