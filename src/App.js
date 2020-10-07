@@ -1,11 +1,15 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { HashRouter } from "react-router-dom";
+import Navigator from "./Components/Navigator";
 
 function App() {
   return (
-    <div className="App">
-      <p>안녕</p>
-    </div>
+    <HashRouter>
+      <div className="entirePage">
+        <Navigator />
+      </div>
+    </HashRouter>
   );
 }
 
