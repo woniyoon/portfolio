@@ -59,9 +59,10 @@ class Works extends React.Component {
 
     render() {
         const { isSelected, project, top } = this.state;
+        document.body.style.overflowY = isSelected ? "hidden" : "";        
 
         return (
-            <div className="workContainer">
+            <div className="workContainer" >
                 {this.getProject()}
                 {isSelected ?  <Modal project={project} close={this.closeModal} top={top} /> : null}
             </div>
