@@ -26,10 +26,10 @@ function Modal({ close, project, top }){
                     <img src={project.architecture} width="90%" alt="project_architecture"/>
                     <p align="left"><strong>스크린샷</strong></p><br/>
                     { project.screenShots.map((item, index)=>{ 
-                        return <div key={index}><img src={item.img} width="80%" alt="project_screenshot" /><p>{item.description}</p></div>}) 
+                        return <div key={index}><img src={item.img} width="80%" alt="project_screenshot" /><p>{item.description}</p><br/><br/></div>}) 
                     }
                     <br/><br/>
-                    {/* <span className="closeBtn" onClick={close}>CLOSE</span> */}
+                    <p>더 자세한 설명과 소스코드가 궁금하다면 <a href={project.github} target="_blank" style={{ color: "black", cursor: "pointer"}}><strong>이곳으로</strong></a> 와주세요!</p>
                 </div>
             </main>
         </div>

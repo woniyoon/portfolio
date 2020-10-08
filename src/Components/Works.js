@@ -83,6 +83,7 @@ const projects = [
         screenShots: [{img: sbScreen1, description: "장바구니"}, 
                         {img: sbScreen2, description: "결제 전 페이지"},
                         {img: sbScreen3, description: "관리자 페이지" }],
+        github: "https://github.com/woniyoon/StarbucksWeb",
     },
     {
         id: "sd002",
@@ -96,6 +97,7 @@ const projects = [
                         {img: sdScreen2, description: "병원 정보 업데이트 페이지"},
                         {img: sdScreen3, description: "병원 예약 관리 페이지"},
                         {img: sdScreen4, description: "병원 후기 모아보기 페이지" }],
+        github: "https://github.com/woniyoon/SocDoc",
     },
 ];
 
