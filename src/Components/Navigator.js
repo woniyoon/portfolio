@@ -5,7 +5,7 @@ function Navigator() {
     return (
         <ul className="navMenu" >
             <li>
-                <a href="#">MAIN</a>
+                <a href="#about">MAIN</a>
             </li>
             <li>
                 <a href="#skills">SKILLS</a>
