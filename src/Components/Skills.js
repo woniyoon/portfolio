@@ -20,8 +20,8 @@ function Skills(){
                     };
                     
                     return (
-                        <div className="skillDetail" align="center">
-                            <img className="skillIcon" src={item.src} key={index}/>
+                        <div className="skillDetail" align="center" key={index}>
+                            <img className="skillIcon" src={item.src} alt="skill icons"/>
                             <div className="levelIndicator">
                                 <div className="levelBar" style={indicatorStyle}></div>
                             </div>
