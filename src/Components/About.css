@@ -25,7 +25,7 @@
 }
 
 .aboutTitle, .aboutDetail {
-    margin: 100px 0;
+    margin: 80px 0;
 }
 
 .profileImg {
@@ -36,7 +36,7 @@
 
 .about table {
     background-color: rgb(245, 245, 245);
-    width: 90%;
+    /* width: 90%; */
 }
 
 .about table td {
