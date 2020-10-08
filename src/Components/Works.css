@@ -13,7 +13,7 @@
     grid-column-gap: 5em;
     column-gap: 5em;
     grid-row-gap: 5em;
-    width: 65vw;
+    width: fit-content;
 }
 
 /* @media screen and (min-width: 1030px) {
