@@ -5,6 +5,7 @@ import About from "./Components/About";
 import Skills from "./Components/Skills";
 import Works from "./Components/Works";
 import Contacts from "./Components/Contacts";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Works />
         <section className="perforatedLine"></section>
         <Contacts />
+        <Footer />
       </div>
   );
 }
