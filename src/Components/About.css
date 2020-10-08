@@ -10,8 +10,11 @@
 }
 
 .aboutTitle {
-    flex: 2;
-    padding: 50px 0 0 50px;
+    flex: 4;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
 }
 
 .fullname {
@@ -20,12 +23,13 @@
 }
 
 .aboutDetail {
-    flex: 3;
-    padding: 50px;
+    flex: 6;
+    padding: 20px;
 }
 
 .aboutTitle, .aboutDetail {
     margin: 80px 0;
+    /* border: 1px solid hotpink; */
 }
 
 .profileImg {
@@ -43,4 +47,62 @@
     border-bottom: 1px solid rgb(69, 69, 69);
     line-height: 2.5em;
     font-size: 1em;
+}
+
+/* @media screen and (max-width: 1030px) {
+    .about {
+        
+    }
+
+    .about table {
+        width: 100%;
+    }
+} */
+
+@media screen and (max-width: 885px)and (min-width: 700px) {
+    /* .about {
+        flex-direction: column;
+    }
+*/
+    .aboutTitle {
+        flex: 1;
+    } 
+
+    .profileImg {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .about {
+        flex-direction: column;
+    }
+
+    .aboutTitle, .aboutDetail {
+        margin: 5px auto;
+    }
+
+    .aboutTitle {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-content: flex-end;
+    }
+
+    .shortAboutTitle {
+        margin-left: 15px;
+    }
+
+    .shortAboutTitle p {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    
+    .profileImg {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
 }
