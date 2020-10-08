@@ -1,4 +1,24 @@
 .contacts {
     min-height: 70vh;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts h3 {
+    display: inline-block;
+}
+
+.contacts article {
+    color: black;
+    display: inline-block;
+}
+
+.MuiSvgIcon-fontSizeLarge {
+    color: black;
+}
+
+.contactsContainer a {
+    margin: 0 10px;
 }
