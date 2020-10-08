@@ -1,5 +1,64 @@
-.skillsContainer {
-    min-height: 100vh;
+.skillsSection {
+    min-height: 70vh;
     height: auto;
-    background-color: rgb(226, 195, 255);
+    margin: 80px 0;
+}
+
+.iconContainer {
+    width: 60vw;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 20px 0 40px 0;
+}
+
+.skillIcon {
+    width: 70px;
+    height: 70px;
+    margin: 30px 50px;
+}
+
+.skillDetail {
+    display: inline-block;
+    /* border: 1px solid rgb(117, 93, 135); */
+    margin: 10px;
+}
+
+.levelIndicator {
+    width: 90%;
+    height: 15px;
+    display: flex;
+    border: 1px solid rgb(198, 198, 198);
+    border-radius: 5px;
+}
+
+.levelBar {
+    animation: load 5s 0s ease-in;
+    -webkit-animation: load 5s 0s ease-in;
+    -moz-animation: load 5s 0s ease-in;
+    -o-animation: load 5s 0s ease-in;
+}
+
+@keyframes load{
+    from {
+        width: 0%
+    }
+}
+
+@-webkit-keyframes load{
+    from {
+        width: 0%
+    }
+}
+
+@-moz-keyframes load{
+    from {
+        width: 0%
+    }
+}
+
+@-o-keyframes load{
+    from {
+        width: 0%
+    }
 }

@@ -1,12 +1,72 @@
 import React from "react";
 import "./Skills.css";
+import { css, html, javascript, java, github, spring, react, oracle } from "../images/index";
 
 function Skills(){
+
+    
+
     return (
-        <section id="skills" className="skillsContainer">
-            스킬
+        <section id="skills" className="skillsSection">
+            <h1 style={{ margin: "0 0 0 150px"}}>SKILLS</h1>
+            <div className="iconContainer" align="center">
+                {iconArr.map((item, index)=>{
+                    const indicatorStyle = { 
+                        width: item.level * 10 + "%", 
+                        backgroundColor: "rgb(117, 93, 135)", 
+                        height: "10px", 
+                        margin: "3px", 
+                        borderRadius: "3px"
+                    };
+                    
+                    return (
+                        <div className="skillDetail" align="center">
+                            <img className="skillIcon" src={item.src} key={index}/>
+                            <div className="levelIndicator">
+                                <div className="levelBar" style={indicatorStyle}></div>
+                            </div>
+                        </div>
+                    );
+                })}
+            </div>
         </section>
     );
 }
+
+const iconArr = [
+    {
+        src: css,
+        level: 6,
+    }, 
+    {
+        src: html,
+        level: 8,
+    },
+    {
+        src: javascript,
+        level: 7,
+    },
+    {
+        src: java,
+        level: 7,
+    },
+    {
+        src: spring,
+        level: 6,
+    },
+    {
+        src: react,
+        level: 7,
+    },
+    {
+        src: oracle,
+        level: 7,
+    },
+    {
+        src: github,
+        level: 8,
+    }
+];
+
 
 export default Skills;
