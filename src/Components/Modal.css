@@ -32,6 +32,7 @@
 
 .xBtn {
     font-size: 1.3em;
+    cursor: pointer;
 }
 
 .closeBtn {
@@ -39,4 +40,5 @@
     padding: 10px;
     border-radius: 10px;
     color: rgb(69, 69, 69);
+    cursor: pointer;
 }
