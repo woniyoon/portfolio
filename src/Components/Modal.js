@@ -13,7 +13,7 @@ function Modal({ close, project, top }){
 
     return (
         <div className="modalContainer" style={{top}}>
-            <div id="modalOverlay" className="modalOverlay" style={{top}}>
+            <div id="modalOverlay" className="modalOverlay" onClick={close} style={{top}}>
             </div>
             <main className="modalContent">
                 <p className="xBtn" onClick={close} align="right"><strong>X</strong></p>
@@ -29,7 +29,7 @@ function Modal({ close, project, top }){
                         return <div key={index}><img src={item.img} width="80%" alt="project_screenshot" /><p>{item.description}</p></div>}) 
                     }
                     <br/><br/>
-                    <span className="closeBtn" onClick={close}>CLOSE</span>
+                    {/* <span className="closeBtn" onClick={close}>CLOSE</span> */}
                 </div>
             </main>
         </div>
