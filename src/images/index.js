@@ -9,3 +9,5 @@ export const socdocLogo = require("./socdocLogoT.png");
 export const sbWeb = require("../images/sbWeb.png");
 export const sdArch = require("../images/sdArch.jpeg");
 export const sbArch = require("../images/sbArch.jpeg");
+export const profile = require("../images/profile.jpeg");
+export const profileHover = require("../images/rtc_me.jpeg");
