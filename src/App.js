@@ -4,6 +4,7 @@ import Navigator from "./Components/Navigator";
 import About from "./Components/About";
 import Skills from "./Components/Skills";
 import Works from "./Components/Works";
+import Contacts from "./Components/Contacts";
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
         <Skills />
         <section className="perforatedLine"></section>
         <Works />
+        <section className="perforatedLine"></section>
+        <Contacts />
       </div>
   );
 }

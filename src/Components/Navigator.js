@@ -13,8 +13,11 @@ function Navigator() {
             <li>
                 <a href="#works">WORKS</a>
             </li>
-            <li>
+            {/* <li>
                 <a href="https://woniyoon.github.io/">BLOG</a>
+            </li> */}
+            <li>
+                <a href="#contacts">CONTACTS</a>
             </li>
         </ul>
     );
