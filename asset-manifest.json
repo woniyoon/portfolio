@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.3ae3828d.chunk.css",
+    "main.js": "/portfolio/static/js/main.ad1c9d0d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ad1c9d0d.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.471e0fc2.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.471e0fc2.js.map",
+    "static/js/2.ec131f2f.chunk.js": "/portfolio/static/js/2.ec131f2f.chunk.js",
+    "static/js/2.ec131f2f.chunk.js.map": "/portfolio/static/js/2.ec131f2f.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.fdff0634f55d0d5a1dd05c8a5c9636f0.js": "/portfolio/precache-manifest.fdff0634f55d0d5a1dd05c8a5c9636f0.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.3ae3828d.chunk.css.map": "/portfolio/static/css/main.3ae3828d.chunk.css.map",
+    "static/js/2.ec131f2f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ec131f2f.chunk.js.LICENSE.txt",
+    "static/media/github.png": "/portfolio/static/media/github.dc4c9d09.png",
+    "static/media/java.png": "/portfolio/static/media/java.56805e36.png",
+    "static/media/oracle.png": "/portfolio/static/media/oracle.677e74e1.png",
+    "static/media/profile.jpeg": "/portfolio/static/media/profile.d0a4a731.jpeg",
+    "static/media/react.png": "/portfolio/static/media/react.37fe8322.png",
+    "static/media/rtc_me.jpeg": "/portfolio/static/media/rtc_me.934262c9.jpeg",
+    "static/media/sbArch.jpeg": "/portfolio/static/media/sbArch.2d689a81.jpeg",
+    "static/media/sbScreenshot1.png": "/portfolio/static/media/sbScreenshot1.900d41d4.png",
+    "static/media/sbScreenshot2.png": "/portfolio/static/media/sbScreenshot2.811acf39.png",
+    "static/media/sbScreenshot3.png": "/portfolio/static/media/sbScreenshot3.7cd00b2b.png",
+    "static/media/sbWeb.png": "/portfolio/static/media/sbWeb.3b856ae4.png",
+    "static/media/sdArch.jpeg": "/portfolio/static/media/sdArch.939567e5.jpeg",
+    "static/media/sdScreen1.png": "/portfolio/static/media/sdScreen1.b5c39636.png",
+    "static/media/sdScreen2.png": "/portfolio/static/media/sdScreen2.474654d8.png",
+    "static/media/sdScreen3.png": "/portfolio/static/media/sdScreen3.d0d8bd36.png",
+    "static/media/sdScreen4.png": "/portfolio/static/media/sdScreen4.77b2c3ce.png",
+    "static/media/socdocLogoT.png": "/portfolio/static/media/socdocLogoT.df1b81a9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.471e0fc2.js",
+    "static/js/2.ec131f2f.chunk.js",
+    "static/css/main.3ae3828d.chunk.css",
+    "static/js/main.ad1c9d0d.chunk.js"
+  ]
+}
