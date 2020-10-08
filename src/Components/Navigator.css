@@ -13,6 +13,7 @@
     height: 5vh;
     min-height: 50px;
     background-color: rgb(106, 106, 106);
+    z-index: 50;
 }
 
 .navMenu li {
