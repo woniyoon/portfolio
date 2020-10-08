@@ -9,8 +9,11 @@ function App() {
   return (
       <div className="entirePage">
         <Navigator />
+        <div className="perforatedLine"></div>
         <About />
+        <div className="perforatedLine"></div>
         <Skills />
+        <div className="perforatedLine"></div>
         <Works />
       </div>
   );
