@@ -1,5 +1,46 @@
 .about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-around;
     min-height: 100vh;
-    background-color: black;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 10vh 15vw;
+}
+
+.aboutTitle {
+    flex: 2;
+    padding: 50px 0 0 50px;
+}
+
+.fullname {
+    font-size: 2em;
+    font: bolder;
+}
+
+.aboutDetail {
+    flex: 3;
+    padding: 50px;
+}
+
+.aboutTitle, .aboutDetail {
+    margin: 100px 0;
+}
+
+.profileImg {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.about table {
+    background-color: rgb(245, 245, 245);
+    width: 90%;
+}
+
+.about table td {
+    border-bottom: 1px solid rgb(69, 69, 69);
+    line-height: 2.5em;
+    font-size: 1em;
 }
