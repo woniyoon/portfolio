@@ -29,7 +29,7 @@ class Works extends React.Component {
     // }
 
     clickProject(project){
-        console.log(document.documentElement.scrollTop);
+        // console.log(document.documentElement.scrollTop);
         
 
         this.setState(prev => ({

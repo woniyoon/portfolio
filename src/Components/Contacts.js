@@ -11,7 +11,7 @@ function Contacts(){
             <article className="contactsContainer">
                 <a href="mailto:woniyoon@gmail.com"><MailOutlineIcon fontSize="large"/></a>
                 <a href="https://www.instagram.com/yoonj1i/"><InstagramIcon fontSize="large" /></a>
-                <a href="https://github.com/woniyoon" target="_blank"><GitHubIcon fontSize="large" /></a>
+                <a href="https://github.com/woniyoon" target="_blank" rel="noopener noreferrer"><GitHubIcon fontSize="large" /></a>
             </article>
             <p>See you again!</p>
         </section>

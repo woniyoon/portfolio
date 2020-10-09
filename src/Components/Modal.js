@@ -9,7 +9,7 @@ function Modal({ close, project, top }){
     // title
     // const project = detail[projectId];
 
-    console.log(top);
+    // console.log(top);
 
     return (
         <div className="modalContainer" style={{top}}>
@@ -29,7 +29,7 @@ function Modal({ close, project, top }){
                         return <div key={index}><img src={item.img} width="80%" alt="project_screenshot" /><p>{item.description}</p><br/><br/></div>}) 
                     }
                     <br/><br/>
-                    <p>더 자세한 설명과 소스코드가 궁금하다면 <a href={project.github} target="_blank" style={{ color: "black", cursor: "pointer"}}><strong>이곳으로</strong></a> 와주세요!</p>
+                    <p>더 자세한 설명과 소스코드가 궁금하다면 <a href={project.github} target="_blank" rel="noopener noreferrer" style={{ color: "black" }}><strong>이곳으로</strong></a> 와주세요!</p>
                 </div>
             </main>
         </div>

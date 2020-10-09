@@ -8,7 +8,6 @@ class About extends React.Component {
     }
 
     changeProfileImg = () => {
-        console.log("?!");
         this.setState(prev=>({
             profileImg: profileHover,
         }));
