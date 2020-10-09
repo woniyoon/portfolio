@@ -33,3 +33,9 @@ a:visited {
     color: rgb(225, 225, 225);
 }
 
+@media screen and (max-width: 885px) {
+    .navMenu {
+        width: 100%;
+        /* background-color: blue; */
+    }
+}
