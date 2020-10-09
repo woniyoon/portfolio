@@ -61,13 +61,16 @@ class About extends React.Component {
                                     <td>MBTI : INFJ</td>
                                 </tr>
                                 <tr>
+                                    <td>사용하는 에디터 : Visual Studio Code</td>
+                                </tr>
+                                <tr>
+                                    <td>좋아하는 협업툴 : Trello, Slack</td>
+                                </tr>
+                                <tr>
                                     <td>TMI 1 : 사람의 언어를 공부했었으나 현재는 프로그래밍 언어를 공부함</td>
                                 </tr>
                                 <tr>
                                     <td>TMI 2 : 다른 사람들과 같이 작업하는 걸 좋아함</td>
-                                </tr>
-                                <tr>
-                                    <td><br/></td>
                                 </tr>
                                 <tr>
                                     <td><br/></td>
