@@ -7,7 +7,12 @@ import Works from "./Components/Works";
 import Contacts from "./Components/Contacts";
 import Footer from "./Components/Footer";
 
+const intro = "%cHi, there! \nI'm J1 who's a front-end dev, a coffee lover and an aspiring writer!\n👩‍💻 ☕️ 📝";
+
+
 function App() {
+  console.log(intro, "color: rgb(106, 106, 106); font-size:15px");
+
   return (
       <div className="entirePage">
         <Navigator />
