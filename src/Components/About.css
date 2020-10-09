@@ -3,7 +3,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-content: space-around;
-    height: 75vh;
+    height: auto;
+    min-height: 75vh;
     color: black;
     padding: 10vh 15vw;
 }
@@ -81,6 +82,7 @@
         flex-direction: column;
         min-height: 80vh;
         height: auto;
+        padding: 50px 0;
     }
 
     .aboutTitle, .aboutDetail {
@@ -107,5 +109,13 @@
         width: 150px;
         height: 150px;
         border-radius: 50%;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .profileImg {
+        margin: 20px 0 0 0;
+        width: 100px;
+        height: 100px;
     }
 }

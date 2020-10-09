@@ -8,12 +8,12 @@ function Skills(){
 
     return (
         <section id="skills" className="skillsSection">
-            <h1 style={{ margin: "0 0 0 150px"}}>SKILLS</h1>
+            <h1>SKILLS</h1>
             <div className="iconContainer" align="center">
                 {iconArr.map((item, index)=>{
                     const indicatorStyle = { 
                         width: item.level * 10 + "%", 
-                        backgroundColor: "rgb(117, 93, 135)", 
+                        backgroundColor: "rgb(64 64 64)", 
                         height: "10px", 
                         margin: "3px", 
                         borderRadius: "3px"
