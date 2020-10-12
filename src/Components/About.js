@@ -7,6 +7,10 @@ class About extends React.Component {
         profileImg: profile,
     }
 
+    componentDidMount(){
+        document.title = "J1 - FrontEndDev"
+    }
+
     changeProfileImg = () => {
         this.setState(prev=>({
             profileImg: profileHover,
