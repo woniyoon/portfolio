@@ -6,18 +6,19 @@ import Skills from "./Components/Skills";
 import Works from "./Components/Works";
 import Contacts from "./Components/Contacts";
 import Footer from "./Components/Footer";
+import {withTranslation} from "react-i18next";
 
 const intro = "%cHi, there! \nI'm J1 who's a front-end dev, a coffee lover and an aspiring writer!\n👩‍💻 ☕️ 📝";
 
 
-function App() {
+function App({t, i18n}) {
   console.log(intro, "color: rgb(106, 106, 106); font-size:15px");
 
   return (
       <div className="entirePage">
-        <Navigator />
+        <Navigator i18n={i18n} />
         <section className="perforatedLine"></section>
-        <About />
+        <About t={t}/>
         <section className="perforatedLine"></section>
         <Skills />
         <section className="perforatedLine"></section>
@@ -29,4 +30,4 @@ function App() {
   );
 }
 
-export default App;
+export default withTranslation()(App);

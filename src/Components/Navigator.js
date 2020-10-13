@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navigator.css";
 
-function Navigator() {
+function Navigator({ i18n }) {
     return (
         <ul className="navMenu" >
             <li>
@@ -18,6 +18,10 @@ function Navigator() {
             </li> */}
             <li>
                 <a href="#contacts">CONTACTS</a>
+            </li>
+            <li>
+                <button onClick={() => {i18n.changeLanguage('en-US')}}>English</button>
+                <button onClick={() => {i18n.changeLanguage('ko-KR')}}>Korean</button>
             </li>
         </ul>
     );

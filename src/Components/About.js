@@ -25,7 +25,8 @@ class About extends React.Component {
 
     render() {
         const { profileImg } = this.state;
-        
+        const {t, i18n} = this.props;
+
         return (
             <div id="about" className="about" >
                 <aside className="aboutTitle" >
@@ -49,31 +50,31 @@ class About extends React.Component {
                         <table align="center">
                             <tbody>
                                 <tr>
-                                    <td>이름 : 윤재원</td>
+                                    <td>{t("about.name")}</td>
                                 </tr>
                                 <tr>
-                                    <td>거주지 : 서울</td>
+                                    <td>{t("about.residence")}</td>
                                 </tr>
                                 <tr>
-                                    <td>취미 : 여행, 외국어 배우기, 방탈출, 보드게임</td>
+                                    <td>{t("about.hobbies")}</td>
                                 </tr>
                                 <tr>
-                                    <td>최근 관심사 : React.js(독학중), Node.js </td>
+                                    <td>{t("about.interest")}</td>
                                 </tr>
                                 <tr>
-                                    <td>MBTI : INFJ</td>
+                                    <td>{t("about.mbti")}</td>
                                 </tr>
                                 <tr>
-                                    <td>사용하는 에디터 : Visual Studio Code</td>
+                                    <td>{t("about.editor")}</td>
                                 </tr>
                                 <tr>
-                                    <td>좋아하는 협업툴 : Trello, Slack</td>
+                                    <td>{t("about.coopTools")}</td>
                                 </tr>
                                 <tr>
-                                    <td>TMI 1 : 사람의 언어를 공부했었으나 현재는 프로그래밍 언어를 공부함</td>
+                                    <td>{t("about.tmi1")}</td>
                                 </tr>
                                 <tr>
-                                    <td>TMI 2 : 다른 사람들과 같이 작업하는 걸 좋아함</td>
+                                    <td>{t("about.tmi2")}</td>
                                 </tr>
                                 <tr>
                                     <td><br/></td>
