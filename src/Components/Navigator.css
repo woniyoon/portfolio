@@ -38,9 +38,15 @@ a:visited {
     cursor: pointer;
 }
 
-@media screen and (max-width: 885px) {
+@media screen and (min-width: 450px) and (max-width: 885px) {
     .navMenu {
         width: 100vw;
         /* background-color: blue; */
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .navMenu {
+        font-size: 0.7em;
     }
 }
