@@ -42,7 +42,7 @@ class About extends React.Component {
                     <section className="shortAboutTitle">
                         <p className="fullname">JAEWON YOON</p>
                         <p>Frontend Developer</p>
-                        <p>끊임없이 발전해가는 개발자</p>
+                        <p>{t("about.comment")}</p>
                     </section>
                 </aside>
                 <section className="aboutDetail">
