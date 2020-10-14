@@ -1,8 +1,9 @@
 {
     "about.name": "이름 : 윤재원",
+    "about.comment": "끊임없이 발전해나가는 개발자",
     "about.residence": "거주지 : 서울",
     "about.hobbies": "취미 : 여행, 외국어 배우기, 방탈출, 보드게임",
-    "about.interest": "React.js(독학중), Node.js, typescript",
+    "about.interest": "요즘 관심사 : React.js(독학중), Node.js, typescript",
     "about.mbti": "MBTI: INFJ",
     "about.editor": "사용하는 에디터 : Visual Studio Code",
     "about.coopTools": "좋아하는 협업툴 : Trello, Slack",
