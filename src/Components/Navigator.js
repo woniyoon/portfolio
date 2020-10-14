@@ -20,8 +20,8 @@ function Navigator({ i18n }) {
                 <a href="#contacts">CONTACTS</a>
             </li>
             <li>
-                <button onClick={() => {i18n.changeLanguage('en-US')}}>English</button>
-                <button onClick={() => {i18n.changeLanguage('ko-KR')}}>Korean</button>
+                <span className="langOption" onClick={() => {i18n.changeLanguage('en-US')}}>ENG </span> /
+                <span className="langOption" onClick={() => {i18n.changeLanguage('ko-KR')}}> KOR</span>
             </li>
         </ul>
     );
