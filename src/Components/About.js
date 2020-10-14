@@ -25,7 +25,7 @@ class About extends React.Component {
 
     render() {
         const { profileImg } = this.state;
-        const {t, i18n} = this.props;
+        const { t } = this.props;
 
         return (
             <div id="about" className="about" >
