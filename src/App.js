@@ -22,7 +22,7 @@ function App({t, i18n}) {
         <section className="perforatedLine"></section>
         <Skills />
         <section className="perforatedLine"></section>
-        <Works />
+        <Works t={t} />
         <section className="perforatedLine"></section>
         <Contacts />
         <Footer />

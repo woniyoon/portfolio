@@ -29,7 +29,7 @@ class Project extends React.Component {
     // }
 
     render(){
-        const project = this.props.project;
+        const { project, t } = this.props;
         // const { isSelected } = this.state;
 
         var divStyle = {
@@ -43,7 +43,7 @@ class Project extends React.Component {
                     // onMouseEnter={this.handleHover}
                     // onMouseLeave={this.handleHover}
                 >
-                    <p className="projectTitle" align="center">{project.title}<br/>{project.period}</p>
+                    <p className="projectTitle" align="center">{t(project.id+".name").substring(7)}<br/>{project.period}</p>
                 </div>
                 {/* <img className="projectThumnail" src={work.projectThumnail}/> */}
             </div>
