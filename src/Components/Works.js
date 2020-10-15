@@ -15,13 +15,10 @@ import { sbScreen1,
     socdocLogo } from "../images/index.js";
     
 class Works extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            isSelected: false,
-            project: null,
-            top: 0,
-        }
+    state = {
+        isSelected: false,
+        project: null,
+        top: 0,
     }
     
     // handleHover = () => {
