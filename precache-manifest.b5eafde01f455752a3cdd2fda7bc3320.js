@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "26b7da4607ff9f1d1e8ada4ad764e9be",
+    "revision": "0f3b500977c48e5f05868e3591a648bb",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "bae6f52c5d978d85096f",
-    "url": "/portfolio/static/css/main.f8ba7fe4.chunk.css"
+    "revision": "5a154272e11b3a2e0e43",
+    "url": "/portfolio/static/css/main.de45fbcd.chunk.css"
   },
   {
     "revision": "ed46e61c0e83ca7e7318",
@@ -16,12 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.c8613c2b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bae6f52c5d978d85096f",
+    "revision": "5a154272e11b3a2e0e43",
     "url": "/portfolio/static/js/main.474c750a.chunk.js"
   },
   {
     "revision": "e09ca3423089b99b4bf9",
     "url": "/portfolio/static/js/runtime-main.471e0fc2.js"
+  },
+  {
+    "revision": "ddf4cb1303991fbe401e3338904dccb9",
+    "url": "/portfolio/static/media/Kayak Sans Light.ddf4cb13.otf"
   },
   {
     "revision": "0384532820e984ca0dc4a140d11b12d4",
