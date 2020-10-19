@@ -14,6 +14,7 @@
     min-height: 50px;
     background-color: rgb(106, 106, 106);
     color: rgb(225, 225, 225);
+    z-index: 10;
 }
 
 .navMenu li {
