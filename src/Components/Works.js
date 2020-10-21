@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Project from './Project';
 import './Works.css';
 import Modal from './Modal';
@@ -14,62 +14,37 @@ import { sbScreen1,
     sbWeb,
     socdocLogo } from "../images/index.js";
     
-class Works extends React.Component {
-    state = {
-        isSelected: false,
-        project: null,
-        top: 0,
-    }
-    
-    // handleHover = () => {
-    //     console.log("??");
-    //     this.setState(prev => ({
-    //         isSelected: !prev.isSelected,
-    //     }));
-    // }
+const Works = ({ t }) => {
+    const [ isSelected, setSelected ] = useState(false);
+    const [ project, setProject ] = useState(null);
+    const [ top, setTop ] = useState(0);
 
-    clickProject(project){
-        // console.log(document.documentElement.scrollTop);
-
-        this.setState(prev => ({
-            isSelected: true,
-            project,
-            top: document.documentElement.scrollTop,
-        }));
+    function clickProject(project){
+        setSelected(true);
+        setProject(project);
+        setTop(document.documentElement.scrollTop);
     }
 
-    closeModal = () => {
-        this.setState(prev => ({
-            isSelected: false,
-        }));
+    function closeModal() {
+        setSelected(false);
     }
 
-    getProject = ()=>{
-        const { t } = this.props;
-
+    function getProject() {
         return projects.map((project)=>{
             return (
-                <Project customClickEvent={this.clickProject.bind(this)} key={project.id} project={project} t={t}/>
-                // {
-                //     isSelected ?  <Modal project={work} close={this.closeModal} /> : null
-                // }
+                <Project customClickEvent={clickProject} key={project.id} project={project} t={t}/>
             )
         });
     }
 
-    render() {
-        const { t } = this.props;
-        const { isSelected, project, top } = this.state;
-        document.body.style.overflowY = isSelected ? "hidden" : "";        
+    document.body.style.overflowY = isSelected ? "hidden" : "";        
 
-        return (
-            <div id="works" className="workContainer" >
-                {this.getProject()}
-                {isSelected ?  <Modal project={project} close={this.closeModal} top={top} t={t} /> : null}
-            </div>
-        );
-    }
-
+    return (
+        <div id="works" className="workContainer" >
+            {getProject()}
+            {isSelected ?  <Modal project={project} close={closeModal} top={top} t={t} /> : null}
+        </div>
+    );
 }
 
 const projects = [

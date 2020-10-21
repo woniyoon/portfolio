@@ -14,6 +14,8 @@ const intro = "%cHi, there! \nI'm J1 who's a front-end dev, a coffee lover and a
 function App({t, i18n}) {
   console.log(intro, "color: rgb(106, 106, 106); font-size:15px");
 
+  document.title = "J1 - FrontEndDev";
+
   return (
       <div className="entirePage">
         <Navigator i18n={i18n} />
