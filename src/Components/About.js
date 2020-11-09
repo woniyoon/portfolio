@@ -27,7 +27,7 @@ const About = ({ t }) => {
             </section>
             <section className="shortAboutTitle">
                 <p className="fullname">JAEWON YOON</p>
-                <p>Frontend Developer</p>
+                <p>Web Developer</p>
                 <p>{t("about.comment")}</p>
             </section>
         </aside>
