@@ -1,6 +1,6 @@
 import React from "react";
 import "./Skills.css";
-import { css, html, javascript, java, github, spring, react, oracle } from "../images/index";
+import { css, html, javascript, java, github, spring, react, oracle, vue } from "../images/index";
 
 function Skills(){
 
@@ -36,7 +36,7 @@ function Skills(){
 const iconArr = [
     {
         src: css,
-        level: 6,
+        level: 8,
     }, 
     {
         src: html,
@@ -56,7 +56,7 @@ const iconArr = [
     },
     {
         src: react,
-        level: 7,
+        level: 6,
     },
     {
         src: oracle,
@@ -65,6 +65,10 @@ const iconArr = [
     {
         src: github,
         level: 8,
+    },
+    {
+        src: vue,
+        level: 7,
     }
 ];
 

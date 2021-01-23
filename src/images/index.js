@@ -19,3 +19,4 @@ export const javascript = require("../images/javascript.png");
 export const oracle = require("../images/oracle.png");
 export const react = require("../images/react.png");
 export const spring = require("../images/spring.png");
+export const vue = require("../images/vue.png");
